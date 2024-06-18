@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply font-primary text-black bg-beige;
+    @apply font-primary bg-prim;
   }
 }

@@ -13,11 +13,6 @@ module.exports = {
       center: true,
       padding: "1.5rem",
     },
-    colors: {
-      beige: "E3E1DE",
-      black: "000000",
-    },
-
     fontFamily: {
       primary: "var(--font-Manrose)",
     },
@@ -49,6 +44,10 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      colors: {
+        prim: "#E3E1DE",
+        txt: "#000000",
       },
     },
   },
