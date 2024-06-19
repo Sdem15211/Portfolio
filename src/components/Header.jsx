@@ -6,11 +6,11 @@ const Header = () => {
     <header>
       <div className="container mx-auto">
         {/* Desktop nav */}
-        <div className="hidden md:flex pt-1">
+        <div className="hidden md:flex">
           <Nav />
         </div>
         {/* Mobile nav */}
-        <div className="md:hidden py-8 w-full flex justify-end">
+        <div className="md:hidden pt-8 w-full flex justify-end">
           <MobileNav />
         </div>
       </div>

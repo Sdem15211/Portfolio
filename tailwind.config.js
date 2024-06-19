@@ -17,8 +17,8 @@ module.exports = {
       primary: "var(--font-Manrose)",
     },
     fontSize: {
-      Heading: "5.88rem",
-      nav: "2.25rem",
+      Heading: "5rem",
+      nav: "2rem",
       body: "1.25rem",
       accent: "1.5rem",
       subheading: "2rem",
