@@ -20,7 +20,7 @@ module.exports = {
       Heading: "5rem",
       nav: "2rem",
       body: "1.25rem",
-      accent: "1.5rem",
+      accent: "1rem",
       subheading: "2rem",
       work: "3.5rem",
       mobHeading: "2.25rem",
@@ -29,6 +29,9 @@ module.exports = {
       mobaccent: "0.875rem",
       mobsubheading: "1rem",
       mobwork: "2.5rem",
+    },
+    letterSpacing: {
+      tight: "-.035em",
     },
     extend: {
       keyframes: {

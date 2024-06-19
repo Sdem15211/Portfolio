@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <div className="container mx-auto">
         {/* Desktop nav */}
-        <div className="hidden md:flex">
+        <div className="hidden md:flex pt-2">
           <Nav />
         </div>
         {/* Mobile nav */}
