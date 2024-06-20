@@ -29,6 +29,7 @@ module.exports = {
       mobaccent: "0.875rem",
       mobsubheading: "1rem",
       mobwork: "2.5rem",
+      mdheading: "3rem",
     },
     letterSpacing: {
       tight: "-.035em",
