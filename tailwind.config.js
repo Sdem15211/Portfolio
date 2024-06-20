@@ -30,6 +30,7 @@ module.exports = {
       mobsubheading: "1rem",
       mobwork: "2.5rem",
       mdheading: "3rem",
+      mdsubheading: "1.5rem",
     },
     letterSpacing: {
       tight: "-.035em",
