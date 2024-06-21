@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="container mx-auto">
       <h1
-        className="text-mobsubheading uppercase font-semibold xl:text-subheading
+        className="text-mobsubheading uppercase font-semibold
       md:text-mdsubheading md:mb-[80px]"
       >
         (01) Recent work
