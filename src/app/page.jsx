@@ -1,11 +1,11 @@
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
+import Hero from "@/components/Hero/Hero";
+import RecentWork from "@/components/RecentWork/RecentWork";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Projects />
+      <RecentWork />
     </>
   );
 };

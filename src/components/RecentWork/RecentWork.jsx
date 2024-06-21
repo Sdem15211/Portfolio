@@ -2,7 +2,7 @@
 import DesktopProjects from "./DesktopProjects";
 import MobilePojects from "./MobilePojects";
 
-const Projects = () => {
+const RecentWork = () => {
   return (
     <section className="container mx-auto">
       <h1
@@ -23,4 +23,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default RecentWork;

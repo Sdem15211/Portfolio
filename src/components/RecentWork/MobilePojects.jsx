@@ -1,6 +1,6 @@
 "use client";
 
-import Project from "./ui/Project";
+import Project from "../ui/Project";
 
 const MobilePojects = () => {
   const works = [
