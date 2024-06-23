@@ -7,16 +7,16 @@ const RecentWork = () => {
     <section className="container mx-auto">
       <h1
         className="text-mobsubheading uppercase font-medium
-      md:text-mdsubheading md:mb-[40px]"
+      md:text-mdsubheading mb-[40px]"
       >
         (01) Recent work
       </h1>
       {/* desktop */}
-      <div className="hidden md:flex justify-center items-center">
+      <div className="hidden lg:flex justify-center items-center">
         <DesktopProjects />
       </div>
       {/* mobile */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <MobilePojects />
       </div>
     </section>

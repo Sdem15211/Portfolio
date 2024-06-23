@@ -5,28 +5,31 @@ import Project from "../ui/Project";
 const MobilePojects = () => {
   const works = [
     {
-      title: "Project 1",
+      title: "Phantom",
+      img: "Phantom.webp",
       description: "Design & Development",
-      img: "/assets/webpage1crop.webp",
-      right: false,
+      color: "#d9d2e9",
     },
+
     {
-      title: "Project 2",
+      title: "Cowboy",
+      img: "Cowboy.webp",
+      description: "Design & Development",
+      color: "#8C8C8C",
+    },
+
+    {
+      title: "Ohm",
+      img: "Ohm.webp",
       description: "Development",
-      img: "/assets/webpage2crop.webp",
-      right: true,
+      color: "#B6BFC8",
     },
+
     {
-      title: "Project 3",
-      description: "Design & Development",
-      img: "/assets/webpage3crop.webp",
-      right: false,
-    },
-    {
-      title: "Project 4",
+      title: "Misuko",
+      img: "Misuko.webp",
       description: "Design",
-      img: "/assets/webpage4crop.webp",
-      right: true,
+      color: "#706D63",
     },
   ];
 
@@ -38,7 +41,7 @@ const MobilePojects = () => {
           title={work.title}
           description={work.description}
           img={work.img}
-          right={work.right}
+          color={work.color}
         />
       ))}
     </div>
