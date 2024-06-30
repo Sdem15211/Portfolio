@@ -24,7 +24,7 @@ export const Card = ({
   return (
     <div
       ref={container}
-      className="h-screen flex items-center justify-center sticky top-0"
+      className="h-full flex items-center justify-center sticky top-0 pt-10"
     >
       <motion.div
         style={{ scale, top: `${50 * i}px` }}
