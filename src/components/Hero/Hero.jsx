@@ -9,12 +9,12 @@ const Hero = () => {
     loop: 0,
     typeSpeed: 150,
     deleteSpeed: 50,
-    delaySpeed: 2000,
+    delaySpeed: 1750,
   });
   return (
     <section className="h-full mb-[10rem]">
       <div className="container mx-auto">
-        <div className="flex flex-col mt-[7rem] xl:mt-[3.8rem] uppercase text-mobHeading font-medium tracking-tight md:text-mdheading lg:text-work xl:text-Heading">
+        <div className="flex flex-col mt-[7rem] xl:mt-[3.8rem] uppercase text-mobheading font-medium tracking-tight md:text-mdheading lg:text-work xl:text-heading">
           <div className="flex gap-2 ">
             <p>Hi</p>
             <MdWavingHand className="-scale-x-100 rotate-12 w-8 h-8 translate-y-[10px] xl:w-[60px] xl:h-[60px] xl:translate-y-[30px] lg:translate-x-2 md:w-[45px] md:h-[45px] md:translate-y-3" />
@@ -34,13 +34,13 @@ const Hero = () => {
             <SlGlobe className="w-8 h-8 translate-y-[10px] xl:w-[60px] xl:h-[60px] xl:translate-y-[30px] lg:translate-x-4 md:w-[45px] md:h-[45px] md:translate-y-3" />
           </div>
         </div>
-        <div className="w-full flex justify-end mt-[7.5rem] lg:mt-[3.5rem]">
+        <div className="w-full flex justify-end mt-[5rem] lg:mt-[3.5rem]">
           <a href="mailto:hello@simondemeulemeester.com">
             <Button variant="outline">hello@simondemeulemeester.com</Button>
           </a>
         </div>
         <div className="flex justify-center">
-          <span className="text-mobaccent xl:text-accent uppercase font-medium mt-[9.5rem] xl:mt-11 opacity-80">
+          <span className="text-mobaccent xl:text-accent uppercase font-medium mt-[5rem] xl:mt-11 opacity-80">
             (scroll)
           </span>
         </div>

@@ -9,7 +9,7 @@ export default function Work({ index, title, setModal, description }) {
       onMouseLeave={() => {
         setModal({ active: false, index });
       }}
-      className="group duration-300 hover:opacity-50 w-full flex justify-between items-center py-[40px] border-t-[1px] border-[#c9c9c9]"
+      className="group duration-300 hover:opacity-50 w-full flex justify-between items-center py-[40px] border-t-[1px] border-[#c9c9c9] last:border-b-[1px]"
     >
       <h2 className="text-work uppercase font-regular duration-300 group-hover:-translate-x-[10px]">
         {title}
