@@ -7,9 +7,3 @@
     @apply font-primary bg-prim;
   }
 }
-
-/* @layer utilities {
-  .modalimg {
-    height: auto;
-  }
-} */

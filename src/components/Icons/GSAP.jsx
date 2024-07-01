@@ -3,8 +3,8 @@ import React from "react";
 export const GSAP = () => {
   return (
     <svg
-      width="179"
-      height="179"
+      width="140"
+      height="140"
       viewBox="0 0 179 179"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
