@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav className="w-full">
       <ul className="flex justify-between text-nav uppercase font-normal">
-        <a href="#">
+        <a href="#services">
           <li>
             <p className="group relative">
               <span>services</span>
@@ -12,7 +12,7 @@ const Nav = () => {
             </p>
           </li>
         </a>
-        <a href="#">
+        <a href="#work">
           <li>
             <p className="group relative">
               <span>work</span>

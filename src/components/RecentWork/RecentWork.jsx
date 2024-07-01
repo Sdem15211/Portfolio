@@ -4,7 +4,7 @@ import MobilePojects from "./MobilePojects";
 
 const RecentWork = () => {
   return (
-    <section className="container mx-auto">
+    <section id="work" className="container mx-auto">
       <div className=" mb-52">
         <h1
           className="text-mobsubheading uppercase font-medium

@@ -12,7 +12,7 @@ export const Services = () => {
   });
 
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto" id="services">
       <h1
         className="text-mobsubheading uppercase font-medium
       md:text-mdsubheading mb-[40px]"
