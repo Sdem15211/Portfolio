@@ -1,4 +1,5 @@
 "use client";
+import { Contact } from "@/components/Contact/Contact";
 import Hero from "@/components/Hero/Hero";
 import RecentWork from "@/components/RecentWork/RecentWork";
 import { Services } from "@/components/Serv/Services";
@@ -23,7 +24,10 @@ const Home = () => {
       <Hero />
       <RecentWork />
       <Services />
-      <Technologies />
+      <div className="relative overflow-x-hidden">
+        <Technologies />
+        <Contact />
+      </div>
     </>
   );
 };
