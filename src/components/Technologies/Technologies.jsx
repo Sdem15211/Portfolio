@@ -12,7 +12,7 @@ export const Technologies = () => {
     offset: ["start end", "end start"],
   });
 
-  const height = useTransform(scrollYProgress, [0, 1], [50, 0]);
+  const height = useTransform(scrollYProgress, [0, 0.9], [40, 0]);
   return (
     <section>
       <div ref={container} className="flex flex-col relative">

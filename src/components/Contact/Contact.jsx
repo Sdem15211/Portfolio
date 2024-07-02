@@ -3,9 +3,9 @@ import { Button } from "../ui/button";
 
 export const Contact = () => {
   return (
-    <section className="bg-txt h-[95vh] relative z-0">
+    <section className="bg-txt relative z-0 h-[80vh]">
       <div className="container mx-auto bg-txt">
-        <h1 className="text-mobsubheading uppercase font-medium md:text-mdsubheading pt-24 mb-28 text-prim">
+        <h1 className="text-mobsubheading uppercase font-medium md:text-mdsubheading pt-24 mb-20 text-prim">
           (03) Contact
         </h1>
         <div className="flex flex-col justify-center items-center gap-8">
