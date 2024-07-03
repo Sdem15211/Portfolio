@@ -41,7 +41,7 @@ export const Card = ({
             </p>
           </div>
 
-          <div className="lg:w-1/2 w-[280px] md:h-[300px] h-[200px] md:w-3/4  relative overflow-hidden rounded-[50px]">
+          <div className="lg:w-1/2 lg:h-[350px] w-[280px] md:h-[300px] h-[200px] md:w-3/4  relative overflow-hidden rounded-[50px]">
             <motion.div style={{ scale: imageScale }} className="w-full h-full">
               <Image
                 src={`/images/${src}`}
