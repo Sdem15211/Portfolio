@@ -17,44 +17,44 @@ export const Technologies = () => {
     <section>
       <div ref={container} className="flex flex-col relative">
         <div className="container mx-auto">
-          <h1 className="text-mobsubheading uppercase font-medium md:text-mdsubheading mb-[40px]">
+          <h1 className="text-mobsubheading uppercase font-medium md:text-mdsubheading mb-5 lg:mb-10">
             Technologies used
           </h1>
         </div>
         <Marquee style={{ height: "200px" }} autoFill speed={75}>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://nextjs.org/" target="_blank">
               <Nextjs />
             </a>
           </div>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://react.dev/" target="_blank">
               <ReactIcon />
             </a>
           </div>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://tailwindcss.com/" target="_blank">
               <Tailwind />
             </a>
           </div>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://gsap.com/" target="_blank">
               <GSAP />
             </a>
           </div>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://wordpress.com/" target="_blank">
               <Wordpress />
             </a>
           </div>
-          <div className="flex items-center px-16 hover:scale-110 duration-300 ease-out">
+          <div className="flex items-center px-2 lg:px-16 lg:hover:scale-110 duration-300 ease-out scale-50 lg:scale-100">
             <a href="https://bricksbuilder.io/" target="_blank">
               <Bricks />
             </a>
           </div>
         </Marquee>
         <motion.div style={{ height }} className="relative mt-24">
-          <div className="shadow-[0_60px_50px_rgba(0,0,0,0.75)] absolute h-[1550%] w-[120vw] left-[50%] -translate-x-1/2 bg-prim rounded-br-[50%] rounded-bl-[50%] z-10"></div>
+          <div className="shadow-[0_60px_50px_rgba(0,0,0,0.75)] absolute h-[750%] lg:h-[1550%] w-[120vw] left-[50%] -translate-x-1/2 bg-prim rounded-br-[50%] rounded-bl-[50%] z-10"></div>
         </motion.div>
       </div>
     </section>

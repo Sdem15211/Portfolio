@@ -24,11 +24,11 @@ export const Card = ({
   return (
     <div
       ref={container}
-      className="flex items-center justify-center sticky top-10"
+      className="flex items-center justify-center sticky md:top-10 top-1"
     >
       <motion.div
         style={{ scale, top: `${50 * i}px` }}
-        className="border-[1px] bg-prim border-txt rounded-[50px] relative shadow lg:p-12 p-6 py-10"
+        className="border-[1px] bg-prim border-txt rounded-[50px] relative shadow lg:p-12 p-4 py-10"
       >
         <h2 className="text-center lg:text-mdheading xl:text-heading text-mobheading uppercase tracking-tight lg:mb-20 mb-10">
           {title}
@@ -36,7 +36,7 @@ export const Card = ({
 
         <div className="flex h-full lg:gap-24 gap-12 items-center flex-col lg:flex-row ">
           <div className="lg:w-2/5 w-3/4  relative">
-            <p className="lg:text-[1rem]  text-mobaccent uppercase font-regular xl:leading-8 leading-6">
+            <p className="lg:text-[1rem]  text-mobaccent md:uppercase font-regular xl:leading-8 leading-6">
               {description}
             </p>
           </div>
