@@ -1,9 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Work({ index, title, setModal, description }) {
+export default function Work({ index, title, setModal, description, url }) {
   return (
-    <a className="w-full flex justify-between items-center" href="#">
+    <a
+      className="w-full flex justify-between items-center"
+      href={url}
+      target="_blank"
+    >
       <div
         onMouseEnter={() => {
           setModal({ active: true, index });

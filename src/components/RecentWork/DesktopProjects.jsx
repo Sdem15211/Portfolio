@@ -8,6 +8,7 @@ const projects = [
     src: "Phantom.webp",
     description: "Design & Development",
     color: "#d9d2e9",
+    url: "https://phantom.app/",
   },
 
   {
@@ -15,6 +16,7 @@ const projects = [
     src: "Cowboy.webp",
     description: "Design & Development",
     color: "#8C8C8C",
+    url: "https://cowboy.com/nl",
   },
 
   {
@@ -22,6 +24,7 @@ const projects = [
     src: "Ohm.webp",
     description: "Development",
     color: "#B6BFC8",
+    url: "https://cowboy.com/nl",
   },
 
   {
@@ -29,6 +32,7 @@ const projects = [
     src: "Misuko.webp",
     description: "Design",
     color: "#706D63",
+    url: "https://cowboy.com/nl",
   },
 ];
 
@@ -36,8 +40,8 @@ const DesktopProjects = () => {
   const [modal, setModal] = useState({ active: false, index: 0 });
 
   return (
-    <div className="flex items-center h-screen justify-center">
-      <div className="xl:w-[1240px] lg:w-[960px] md:w-[700px] flex flex-col justify-center items-center">
+    <div className="flex w-full items-center h-screen justify-center">
+      <div className="flex w-full flex-col justify-center items-center">
         {projects.map((project, index) => {
           return (
             <Work
@@ -46,6 +50,7 @@ const DesktopProjects = () => {
               setModal={setModal}
               key={index}
               description={project.description}
+              url={project.url}
             />
           );
         })}

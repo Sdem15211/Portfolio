@@ -16,7 +16,7 @@ export const Services = () => {
       <div className="container mx-auto">
         <h1
           className="text-mobsubheading uppercase font-medium
-      md:text-mdsubheading mb-[40px]"
+      md:text-mdsubheading mb-[80px]"
         >
           (02) Services
         </h1>

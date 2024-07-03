@@ -20,7 +20,7 @@ const Nav = () => {
             </p>
           </li>
         </a>
-        <a href="#">
+        <a href="#contact">
           <li>
             <p className="group relative">
               <span>contact</span>

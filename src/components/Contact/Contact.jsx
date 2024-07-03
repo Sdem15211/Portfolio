@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export const Contact = () => {
   return (
-    <section className="bg-txt relative z-0 h-[80vh]">
+    <section id="contact" className="bg-txt relative z-0 h-[80vh]">
       <div className="container mx-auto">
         <h1 className="text-mobsubheading uppercase font-medium md:text-mdsubheading pt-24 mb-20 text-prim">
           (03) Contact

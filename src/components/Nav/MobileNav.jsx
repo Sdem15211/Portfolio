@@ -17,7 +17,7 @@ const MobileNav = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeInOut", duration: 0.8 }}
-            href="/"
+            href="services"
           >
             <p className="relative group">
               <span className="text-mobheading uppercase font-medium text-prim">
@@ -30,7 +30,7 @@ const MobileNav = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2, ease: "easeInOut", duration: 0.8 }}
-            href="/"
+            href="work"
           >
             <p className="relative group">
               <span className="text-mobheading uppercase font-medium text-prim">
@@ -43,7 +43,7 @@ const MobileNav = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, ease: "easeInOut", duration: 0.8 }}
-            href="/"
+            href="contact"
           >
             <p className="relative group">
               <span className="text-mobheading uppercase font-medium text-prim">
