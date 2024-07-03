@@ -20,7 +20,7 @@ const Hero = () => {
             <MdWavingHand className="-scale-x-100 rotate-12 w-8 h-8 translate-y-[10px] xl:w-[60px] xl:h-[60px] xl:translate-y-[30px] lg:translate-x-2 md:w-[45px] md:h-[45px] md:translate-y-3" />
           </div>
           <p>
-            I'm Simon <br className="md:hidden" /> Demeulemeester
+            I&apos;m Simon <br className="md:hidden" /> Demeulemeester
           </p>
           <div className="flex gap-3">
             <p>a web</p>

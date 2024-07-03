@@ -13,7 +13,7 @@ export const Contact = () => {
             Want to work together?
           </p>
           <p className="lg:text-heading md:text-mdheading text-mobheading uppercase text-prim">
-            Let's connect
+            Let&apos;s connect
           </p>
           <a href="mailto:hello@simondemeulemeester.com">
             <Button variant="footer">hello@simondemeulemeester.com</Button>
