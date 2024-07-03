@@ -26,7 +26,7 @@ module.exports = {
       mobheading: "2.25rem",
       mobnav: "1.25rem",
       mobbody: "0.75rem",
-      mobaccent: "1rem",
+      mobaccent: "0.875rem",
       mobsubheading: "1rem",
       mobwork: "2.5rem",
       mdheading: "3rem",

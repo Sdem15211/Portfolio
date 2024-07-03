@@ -20,7 +20,7 @@ const MobileNav = () => {
             href="/"
           >
             <p className="relative group">
-              <span className="text-mobHeading uppercase font-medium text-prim">
+              <span className="text-mobheading uppercase font-medium text-prim">
                 Services
               </span>
               <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 duration-500 ease-in-out	 group-hover:w-full bg-prim"></span>
@@ -33,7 +33,7 @@ const MobileNav = () => {
             href="/"
           >
             <p className="relative group">
-              <span className="text-mobHeading uppercase font-medium text-prim">
+              <span className="text-mobheading uppercase font-medium text-prim">
                 work
               </span>
               <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 duration-500 ease-in-out	 group-hover:w-full bg-prim"></span>
@@ -46,7 +46,7 @@ const MobileNav = () => {
             href="/"
           >
             <p className="relative group">
-              <span className="text-mobHeading uppercase font-medium text-prim">
+              <span className="text-mobheading uppercase font-medium text-prim">
                 contact
               </span>
               <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 duration-500 ease-in-out	 group-hover:w-full bg-prim"></span>
