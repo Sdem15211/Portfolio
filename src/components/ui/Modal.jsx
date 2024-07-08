@@ -109,7 +109,7 @@ const Modal = ({ modal }) => {
         initial="initial"
         animate={active ? "enter" : "closed"}
         ref={cursorLabel}
-        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-transparent flex items-center justify-center text-center text-[0.875rem] text-white"
+        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-transparent flex items-center justify-center text-center text-[0.875rem] text-white uppercase"
       >
         Visit
       </motion.div>

@@ -64,8 +64,9 @@ export const TextScroll = () => {
               },
               scrollTrigger: {
                 trigger: container,
-                start: "50% bottom",
+                start: "50% 75%",
                 end: "top top",
+                markers: true,
                 scrub: true,
               },
             }
