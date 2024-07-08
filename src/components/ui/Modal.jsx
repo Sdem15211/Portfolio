@@ -21,21 +21,21 @@ const scaleAnimation = {
   },
 };
 
-const Modal = ({ projects, modal }) => {
-  const { active, index } = modal;
-  const container = useRef(null);
+const Modal = ({ modal }) => {
+  const { active } = modal;
+  // const container = useRef(null);
   const cursor = useRef(null);
   const cursorLabel = useRef(null);
 
   useEffect(() => {
-    const moveContainerX = gsap.quickTo(container.current, "left", {
-      duration: 0.8,
-      ease: "power3",
-    });
-    const moveContainerY = gsap.quickTo(container.current, "top", {
-      duration: 0.8,
-      ease: "power3",
-    });
+    // const moveContainerX = gsap.quickTo(container.current, "left", {
+    //   duration: 0.8,
+    //   ease: "power3",
+    // });
+    // const moveContainerY = gsap.quickTo(container.current, "top", {
+    //   duration: 0.8,
+    //   ease: "power3",
+    // });
     const moveCursorX = gsap.quickTo(cursor.current, "left", {
       duration: 0.5,
       ease: "power3",
@@ -55,8 +55,8 @@ const Modal = ({ projects, modal }) => {
 
     window.addEventListener("mousemove", (e) => {
       const { pageX, pageY } = e;
-      moveContainerX(pageX);
-      moveContainerY(pageY);
+      // moveContainerX(pageX);
+      // moveContainerY(pageY);
       moveCursorX(pageX);
       moveCursorY(pageY);
       moveCursorLabelX(pageX);
@@ -66,7 +66,7 @@ const Modal = ({ projects, modal }) => {
 
   return (
     <>
-      <motion.div
+      {/* <motion.div
         ref={container}
         variants={scaleAnimation}
         initial="initial"
@@ -96,22 +96,22 @@ const Modal = ({ projects, modal }) => {
             );
           })}
         </div>
-      </motion.div>
+      </motion.div> */}
       <motion.div
         variants={scaleAnimation}
         initial="initial"
         animate={active ? "enter" : "closed"}
         ref={cursor}
-        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-slate-600 flex items-center justify-center"
+        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-zinc-800 flex items-center justify-center"
       ></motion.div>
       <motion.div
         variants={scaleAnimation}
         initial="initial"
         animate={active ? "enter" : "closed"}
         ref={cursorLabel}
-        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-transparent flex items-center justify-center text-white"
+        className="w-[80px] h-[80px] absolute pointer-events-none rounded-full bg-transparent flex items-center justify-center text-center text-[0.875rem] text-white"
       >
-        View
+        Visit
       </motion.div>
     </>
   );
