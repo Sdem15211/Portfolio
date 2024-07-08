@@ -66,7 +66,7 @@ export const TextScroll = () => {
                 trigger: container,
                 start: "50% 75%",
                 end: "top top",
-                markers: true,
+                // markers: true,
                 scrub: true,
               },
             }
