@@ -12,7 +12,7 @@ const Hero = () => {
     delaySpeed: 1750,
   });
   return (
-    <section className="h-full mb-40">
+    <section className="h-full mb-40 mt-24">
       <div className="container mx-auto">
         <div className="flex flex-col mt-[7rem] xl:mt-[3.8rem] uppercase text-mobheading font-medium tracking-tight md:text-mdheading lg:text-work xl:text-heading">
           <div className="flex gap-2 ">

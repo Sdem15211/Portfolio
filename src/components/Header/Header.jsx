@@ -3,14 +3,12 @@ import Nav from "../Nav/Nav";
 
 const Header = () => {
   return (
-    <header>
+    <header className="z-[9999] fixed w-full">
       <div className="container mx-auto">
-        {/* Desktop nav */}
-        <div className="hidden md:flex pt-2">
+        <div className="hidden md:flex mt-8 justify-center items-center">
           <Nav />
         </div>
-        {/* Mobile nav */}
-        <div className="md:hidden pt-8 w-full flex justify-end">
+        <div className="md:hidden -mt-20 w-full flex justify-end">
           <MobileNav />
         </div>
       </div>

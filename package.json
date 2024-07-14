@@ -11,8 +11,10 @@
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
+    "@smakss/react-scroll-direction": "^4.1.0",
     "@vercel/speed-insights": "^1.0.12",
     "class-variance-authority": "^0.7.0",
+    "classnames": "^2.5.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
