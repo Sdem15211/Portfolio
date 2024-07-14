@@ -84,22 +84,22 @@ export const TextScroll = () => {
 
   return (
     <section className="w-full lg:h-[150vh] h-[100vh] flex flex-col justify-center overflow-hidden">
-      <Link href="https://phantom.app/" target="_blank">
+      <Link href="https://energy-website-sooty.vercel.app/" target="_blank">
         <div
+          className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
+          id="marquee-3"
+          ref={(el) => addToRefs(el)}
           onMouseEnter={() => {
             setModal({ active: true });
           }}
           onMouseLeave={() => {
             setModal({ active: false });
           }}
-          className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
-          id="marquee-1"
-          ref={(el) => addToRefs(el)}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Phantom_1.webp`}
+                src={`/images/Flow1.png`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -107,18 +107,15 @@ export const TextScroll = () => {
             </div>
             <div className="flex justify-center items-center flex-1 lg:flex-[1.3] item">
               <h1 className="text-black text-3xl lg:text-work uppercase tracking-tight">
-                <span className="char">P</span>
-                <span className="char">h</span>
-                <span className="char">a</span>
-                <span className="char">n</span>
-                <span className="char">t</span>
+                <span className="char">F</span>
+                <span className="char">l</span>
                 <span className="char">o</span>
-                <span className="char">m</span>
+                <span className="char">w</span>
               </h1>
             </div>
-            <div className="relative h-[180px] flex justify-center items-center flex-1 rounded-lg">
+            <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Phantom_2.webp`}
+                src={`/images/Flow2.png`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -126,7 +123,7 @@ export const TextScroll = () => {
             </div>
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Phantom_3.webp`}
+                src={`/images/Flow3.png`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -134,7 +131,7 @@ export const TextScroll = () => {
             </div>
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Phantom_4.webp`}
+                src={`/images/Flow4.png`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -201,22 +198,22 @@ export const TextScroll = () => {
           </div>
         </div>
       </Link>
-      <Link href="https://ohm.studio/" target="_blank">
+      <Link href="https://phantom.app/" target="_blank">
         <div
-          className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
-          id="marquee-3"
-          ref={(el) => addToRefs(el)}
           onMouseEnter={() => {
             setModal({ active: true });
           }}
           onMouseLeave={() => {
             setModal({ active: false });
           }}
+          className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
+          id="marquee-1"
+          ref={(el) => addToRefs(el)}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Ohm_1.webp`}
+                src={`/images/Phantom_1.webp`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -224,14 +221,18 @@ export const TextScroll = () => {
             </div>
             <div className="flex justify-center items-center flex-1 lg:flex-[1.3] item">
               <h1 className="text-black text-3xl lg:text-work uppercase tracking-tight">
-                <span className="char">O</span>
+                <span className="char">P</span>
                 <span className="char">h</span>
+                <span className="char">a</span>
+                <span className="char">n</span>
+                <span className="char">t</span>
+                <span className="char">o</span>
                 <span className="char">m</span>
               </h1>
             </div>
-            <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
+            <div className="relative h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Ohm_2.webp`}
+                src={`/images/Phantom_2.webp`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -239,7 +240,7 @@ export const TextScroll = () => {
             </div>
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Ohm_3.webp`}
+                src={`/images/Phantom_3.webp`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
@@ -247,7 +248,7 @@ export const TextScroll = () => {
             </div>
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
               <Image
-                src={`/images/Ohm_4.webp`}
+                src={`/images/Phantom_4.webp`}
                 fill
                 alt="image"
                 className="w-full h-full object-cover rounded-lg"
