@@ -4,7 +4,7 @@ import { TextScroll } from "./TextScroll";
 
 const RecentWork = () => {
   return (
-    <section id="work" className="mb-40">
+    <section id="work" className="mb-40 scroll-mt-28">
       <div className="container mx-auto">
         <h1
           className="text-mobsubheading uppercase font-medium

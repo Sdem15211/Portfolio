@@ -65,6 +65,7 @@ const Nav = () => {
             className="text-prim text-mobsubheading lg:text-accent uppercase hover:bg-white hover:text-black duration-300 rounded-3xl px-3 py-1"
             key={index}
             href={header.href}
+            onclick={`lenis.scrollTo('${header.href}')`}
           >
             {header.label}
           </Link>

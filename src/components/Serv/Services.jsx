@@ -12,7 +12,7 @@ export const Services = () => {
   });
 
   return (
-    <section id="services">
+    <section id="services" className=" scroll-mt-28">
       <div className="container mx-auto">
         <h1
           className="text-mobsubheading uppercase font-medium
