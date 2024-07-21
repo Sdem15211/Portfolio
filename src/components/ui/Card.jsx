@@ -29,6 +29,10 @@ export const Card = ({
       <motion.div
         style={{ scale, top: `${50 * i}px` }}
         className="border-[1px] bg-prim border-txt rounded-[50px] relative shadow lg:p-12 p-4 py-10"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        viewport={{ once: true }}
       >
         <h2 className="text-center lg:text-mdheading xl:text-heading text-mobheading uppercase tracking-tight lg:mb-20 mb-10">
           {title}

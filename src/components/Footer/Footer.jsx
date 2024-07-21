@@ -1,6 +1,5 @@
 import React from "react";
 import { FaArrowUp } from "react-icons/fa6";
-import { FaRegCopyright } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -15,18 +14,17 @@ export const Footer = () => {
             <p>Instagram</p>
           </a>
           <a
-            href="https://github.com/Sdem15211"
+            href="https://www.linkedin.com/in/simon-demeulemeester-023b58208/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <p>Github</p>
+            <p>LinkedIn</p>
           </a>
         </div>
         <div className="absolute left-1/2 transform -translate-x-1/2 flex gap-1">
           <p className="md:text-[1.125rem] text-mobbody text-center">
-            Simon <br className="md:hidden" /> Demeulemeester
+            Simon <br className="md:hidden" /> Demeulemeester &copy;
           </p>
-          <FaRegCopyright className="md:translate-y-[8px] translate-y-[22px] md:w-3 md:h-3 w-[10px] h-[10px]" />
         </div>
         <div className="md:-translate-y-6 -translate-y-4">
           <a href="#">

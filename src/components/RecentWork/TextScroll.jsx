@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
 import Modal from "../ui/Modal";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -85,7 +86,7 @@ export const TextScroll = () => {
   return (
     <section className="w-full lg:h-[150vh] h-[100vh] flex flex-col justify-center overflow-hidden">
       <Link href="https://energy-website-sooty.vercel.app/" target="_blank">
-        <div
+        <motion.div
           className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
           id="marquee-3"
           ref={(el) => addToRefs(el)}
@@ -95,6 +96,10 @@ export const TextScroll = () => {
           onMouseLeave={() => {
             setModal({ active: false });
           }}
+          initial={{ opacity: 0, y: 75 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
@@ -138,10 +143,10 @@ export const TextScroll = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </Link>
       <Link href="https://cowboy.com/nl" target="_blank">
-        <div
+        <motion.div
           className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[35%] lg:left-0"
           id="marquee-2"
           ref={(el) => addToRefs(el)}
@@ -151,6 +156,10 @@ export const TextScroll = () => {
           onMouseLeave={() => {
             setModal({ active: false });
           }}
+          initial={{ opacity: 0, y: 75 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative  w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
@@ -196,10 +205,10 @@ export const TextScroll = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </Link>
       <Link href="https://phantom.app/" target="_blank">
-        <div
+        <motion.div
           onMouseEnter={() => {
             setModal({ active: true });
           }}
@@ -209,6 +218,10 @@ export const TextScroll = () => {
           className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[25%]"
           id="marquee-1"
           ref={(el) => addToRefs(el)}
+          initial={{ opacity: 0, y: 75 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
@@ -255,10 +268,10 @@ export const TextScroll = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </Link>
       <Link href="https://misuko.be/nl" target="_blank">
-        <div
+        <motion.div
           className="relative lg:w-[125%] lg:h-[250px] w-[250%] h-[150px] flex mb-5 overflow-hidden -left-[35%] lg:left-0"
           id="marquee-4"
           ref={(el) => addToRefs(el)}
@@ -268,6 +281,10 @@ export const TextScroll = () => {
           onMouseLeave={() => {
             setModal({ active: false });
           }}
+          initial={{ opacity: 0, y: 75 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         >
           <div className="w-full h-full absolute top-[50%] left-0 -translate-y-1/2 flex gap-6 marquee items-center">
             <div className="relative w-[200px] h-[180px] flex justify-center items-center flex-1 rounded-lg">
@@ -313,7 +330,7 @@ export const TextScroll = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </Link>
       <Modal modal={modal} />
     </section>

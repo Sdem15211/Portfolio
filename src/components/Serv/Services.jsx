@@ -14,12 +14,16 @@ export const Services = () => {
   return (
     <section id="services" className=" scroll-mt-28">
       <div className="container mx-auto">
-        <h1
+        <motion.h1
           className="text-mobsubheading uppercase font-medium
       md:text-mdsubheading mb-[80px]"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          viewport={{ once: true }}
         >
           (02) Services
-        </h1>
+        </motion.h1>
         <div className="mb-72" ref={container}>
           {ServicesDescriptions.map((service, i) => {
             const targetScale = 1 - (ServicesDescriptions.length - i) * 0.05;
